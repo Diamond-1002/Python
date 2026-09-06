@@ -1,0 +1,8 @@
+# Proactive Honeypot-Driven Ransomware Defence Framework
+# Requirements — install with:  pip install -r requirements.txt
+
+# Windows API access (ReadDirectoryChangesW, SetFileSecurity, MessageBox, etc.)
+pywin32>=306
+
+# Process inspection — wraps NtQuerySystemInformation for PID resolution
+psutil>=5.9.0

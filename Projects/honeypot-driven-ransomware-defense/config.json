@@ -1,0 +1,42 @@
+{
+  "_comment": "Proactive Honeypot-Driven Ransomware Defence Framework — config.json",
+
+  "directories": [
+    "%USERPROFILE%\\Desktop",
+    "%USERPROFILE%\\Documents",
+    "%USERPROFILE%\\Downloads"
+  ],
+
+  "decoy_count": 3,
+
+  "file_types": [
+    ".docx",
+    ".pdf",
+    ".jpg",
+    ".xlsx",
+    ".txt",
+    ".png",
+    ".csv"
+  ],
+
+  "whitelist": [
+    "explorer.exe",
+    "python.exe",
+    "python3.exe",
+    "pythonw.exe",
+    "code.exe",
+    "winword.exe",
+    "excel.exe",
+    "powerpnt.exe",
+    "notepad.exe",
+    "notepad++.exe",
+    "chrome.exe",
+    "msedge.exe",
+    "firefox.exe",
+    "powershell.exe",
+    "cmd.exe",
+    "svchost.exe",
+    "SearchIndexer.exe",
+    "OneDrive.exe"
+  ]
+}
